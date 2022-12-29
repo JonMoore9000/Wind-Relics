@@ -1,0 +1,552 @@
+.menuOut {
+  transform: translateX(0) !important;
+}
+@media(max-width:1441px) {
+  .nav {
+    width: 20% !important;
+  }
+  .allLore {
+    width: 99% !important;
+    margin-left: 10px;
+  }
+  .allLore h3 {
+    font-size: 18px;
+  }
+  .theBody {
+    margin-left: 19%;
+  }
+  .topBar {
+    margin-left: 15px;
+  }
+}
+@media(max-width:768px) {
+  #hex span {
+    right: 0;
+    transform: none;
+    bottom: 2px;
+    width: fit-content;
+    padding: 0 2px;
+  }
+  .tipbot, .tipbothome {
+    display: none;
+  }
+  #searchlive {
+    right: 0px;
+  }
+  #factionhelp {
+    display: none !important;
+  }
+  .factioncontent {
+    height: auto;
+  }
+  .nav {
+    width: 40% !important;
+    transform: translateX(-430px);
+    transition: linear .2s;
+    z-index: 1;
+  }
+  form input:focus .nav {
+    transform: translateX(-430px);
+  }
+  .theBody, .topBar {
+    margin-left: 0;
+  }
+  .allLore h3 {
+    font-size: 16px;
+  }
+  form {
+    width: 50%;
+  }
+  .metaStuff {
+    width: 40%;
+  }
+  .amount {
+    width: 100%;
+  }
+  .allLore {
+    width: 100% !important;
+    margin-left: 0;
+  }
+  .loreBlock {
+    margin-bottom: 10px !important;
+  }
+  .topBar {
+      padding: 0 20px;
+  }
+  .hello {
+    width: 80%;
+    border-radius: 30px;
+  }
+}
+@media(min-height:600px) and (max-height:800px) {
+  .nav h4 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .nav p {
+    padding: 7px;
+    font-size: 16px;
+  }
+  .nav .social p {
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+    width: 100%;
+    background: #014fc4;
+    padding: 10px;
+    transition: linear .15s;
+    font-size: 12px;
+  }
+}
+@media(max-width:641px) {
+  #downarrow {
+    display: none;
+  }
+  .legend-half-one {
+    padding: 20px 20px 50px 20px;
+    width: 100%;
+  }
+  .legend {
+    padding: 10px;
+  }
+  .legend h2 {
+    margin-top: 0 !important;
+  }
+  .herobox, .factionbox  {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #factionclose {
+    display: block;
+  }
+  #factionbtn:hover {
+    background: none;
+  }
+  .main {
+    height: auto;
+  }
+  .factions {
+    top: 50px;
+    width: 100%;
+    padding: 50px 15px 15px 15px;
+  }
+  .herobox img {
+    display: block !important;
+  }
+  .frontBody img {
+    display: none;
+  }
+  #searchlive {
+    font-size: 8px;
+    bottom: 2px;
+  }
+  form input {
+    font-size: 15px;
+  }
+  .play, .full {
+    display: none;
+  }
+  .patchnotes h4 {
+    font-size: 21px;
+  }
+  #wallet {
+    font-size: 14px;
+  }
+  .nav {
+    overflow: auto;
+    padding-top: 80px;
+  }
+  form {
+    width: 90%;
+    padding: 10px 0 10px 10px;
+  }
+  .nav h4 {
+    margin-top: 10px;
+    font-size: 19px;
+  }
+  .nav p {
+    padding: 0;
+    font-size: 16px;
+    background: none;
+    padding: 2px 0;
+    margin-bottom: 5px;
+  }
+  .nav p:hover {
+    padding-left: 0;
+    opacity: .7;
+  }
+  .nav .social p {
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+    width: 100%;
+    background: #014fc4;
+    padding: 10px;
+    transition: linear .15s;
+    font-size: 12px;
+  }
+  #google_translate_element, .metaStuff {
+    display: none;
+  }
+  .patchnotes {
+    width: 100%;
+    background: #222;
+  }
+  #credit {
+    margin-top: 30px;
+  }
+  #credit, #credit a {
+    font-size: 12px;
+    width: 100%;
+  }
+  .loreBlock {
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 10px;
+  }
+  .allLore {
+    margin-top: 65px;
+  }
+  .allLore p {
+    padding: 3px 5px;
+    margin-top: 10px;
+    font-size: 12px
+  }
+  .nav {
+    width: 100% !important;
+    z-index: 1;
+  }
+  .hello {
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+    background: none;
+  }
+  .hello h1, .legend h2, .heroes h2 {
+    font-size: 45px;
+    line-height: 1.1;
+    margin: 15px 0px;
+  }
+  .hello p, .legend p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+  }
+  .main {
+    align-content: baseline;
+  }
+  .hello #enter {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    width: 100% !important;
+    display: block;
+    height:  auto;
+  }
+}
+@media(min-width:769px) {
+  .main .fa-arrow-down {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    font-size: 30px;
+  }
+  .legend-half-one:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 1px solid #d1b000;
+    background: none;
+    top: -20px;
+    left: -20px;
+    transform: translateZ(-1px);
+  }
+  .patchnotes {
+    border-left: 5px solid #d1b000;
+  }
+  .tipbot {
+    font-family: Quicksand;
+    display: none;
+    flex-wrap: wrap;
+    position: fixed;
+    align-items: center;
+    height: auto;
+    width: 600px;
+    z-index: 9999999;
+    bottom: -110px;
+    left: 30%;
+    transition: linear .2s;
+  }
+  .tipbothome {
+    font-family: Quicksand;
+    display: none;
+    flex-wrap: wrap;
+    position: fixed;
+    align-items: center;
+    height: auto;
+    width: 600px;
+    z-index: 9999999;
+    bottom: -110px;
+    right: 30%;
+    transition: linear .2s;
+  }
+  .tipbot:hover, .tipbothome:hover {
+    bottom: -20px;
+  }
+
+  .tipbot:hover img, .tipbothome:hover img {
+    animation-play-state: paused;
+  }
+
+  @keyframes scaling {
+    From {
+    -webkit-transform: scale(1);
+    }
+    To {
+    -webkit-transform: scale(1.05);
+    }
+  }
+  #botimg, .tipbothome #botimg {
+    width: 30%;
+    z-index: 10;
+  }
+  .tipbot div, .tipbothome div {
+    width: 100%;
+  }
+  .tipbot img, .tipbothome img {
+    animation: scaling .5s infinite alternate;
+    width: 150px;
+    height: 150px;
+  }
+  .tipbot p, .tipbothome p {
+    border: 2px solid #d1b000;
+    color: #fff;
+    font-size: 17px;
+    margin-top: -120px;
+    background: #013685;
+    padding: 10px 20px 10px 160px;
+    border-radius: 7px;
+  }
+  .tipbot a, .tipbothome a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .tipbot a:hover, .tipbothome a:hover {
+    color: rgb(232, 110, 2);
+  }
+  .hello {
+      /*border: 3px solid #667eea;
+      border-radius: 60px 0 60px 0;*/
+  }
+  .heroes {
+    padding-bottom: 30px;
+  }
+  .mobileMenu {
+    display: none;
+  }
+  #factionhelp {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+    background: #111;
+    padding: 2px 5px;
+    border-radius: 0;
+  }
+  #factionbtn {
+    border: 1px solid #d1b000;
+    border-radius: 0;
+    width: auto;
+    font-size: 18px;
+    height: 50px;
+    font-weight: bold;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .9)), url(assets/angelo.jpg);
+    background-size: cover;
+    background-position: 100% 146%;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  #clash {
+    border: 1px solid #d1b000;
+    border-radius: 0;
+    width: auto;
+    font-size: 18px;
+    height: 50px;
+    font-weight: bold;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .9)), url(assets/landing@2x.jpg);
+    background-size: cover;
+    background-position: 100% 30%;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  #hex {
+    border: 1px solid #d1b000;
+    border-radius: 0;
+    width: auto;
+    font-size: 18px;
+    height: 50px;
+    font-weight: bold;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .9)), url(assets/THE-HEXBOUND.jpg);
+    background-size: cover;
+    background-position: 100% 10%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    /*overflow: hidden;*/
+  }
+  #hex:hover {
+    cursor: inherit;
+  }
+  #hex:after,
+  #clash:after,
+  #factionbtn:after {
+    display: none;
+  }
+  /*#hex:before,*/
+  #clash:before,
+  #factionbtn:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 30%;
+    background: #d1b000;
+    left: -20px;
+    bottom: 0;
+    z-index: -1;
+    transition: .20s linear;
+    transform: skewX(20deg);
+  }
+  /*#hex:hover:before,*/
+  #clash:hover:before,
+  #factionbtn:hover:before {
+    width: 90%;
+  }
+  .nav p:after {
+    content: "";
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #d1b000;
+    transition: .2s linear;
+  }
+  .nav p:hover:after {
+    width: 100%;
+  }
+  .nav p:hover {
+    background: #333;
+  }
+  .nav p {
+    position: relative;
+  }
+  /*
+  .nav p:before {
+    content: "";
+    position: absolute;
+    border-radius: 5px;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background-color: rgb(232, 110, 2, .5);
+    transition: linear .2s;
+    z-index: -1;
+  }
+  .nav p:hover:before {
+    height: 100%;
+  }*/
+  .nav #all {
+    border-color: #d1b000;
+    border-width: 1px;
+    border-style: solid;
+    background: rgba(209, 176, 0, .1);
+    opacity: 1;
+  }
+  .nav #all:before, #wallet:before {
+    display: none;
+  }
+  .nav #all:hover {
+      background: rgba(209, 176, 0, .2);
+      padding-left: 10px;
+  }
+  .social p {
+    z-index: 1;
+    position: relative;
+  }
+  /*.social p:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100% !important;
+    height: 0;
+    background-color: #5a97f2;
+    transition: linear .15s;
+    z-index: -1;
+    border-radius: 5px;
+  }
+  .social p:hover:before {
+    height: 100%;
+  }*/
+  .social p:hover {
+    padding-left: 10px;
+  }
+  #enter {
+    position: relative;
+  }
+  #credit {
+    /*background: rgba(0,0,0,.4);
+    padding: 3px 10px 5px 10px;*/
+    width: fit-content;
+    border-radius: 3px;
+    margin: 40px auto auto auto;
+  }
+}
+@media(min-width:1000px) {
+  .hello h1 {
+    font-size: 100px;
+  }
+}
+@media(max-width:1024px) and (min-width:769px) {
+  .nav {
+    width: 30% !important;
+  }
+  .theBody {
+    margin-left: 29%;
+  }
+  .hello {
+    width: 100%;
+  }
+  .hello h1 {
+    font-size: 70px;
+  }
+}
+@media(min-width:1360px) and (max-width:1440px) {
+  .hello h1 {
+    font-size: 85px;
+  }
+  .factions {
+    width: 80%;
+  }
+  .tribebio {
+    font-size: 16px !important;
+  }
+  #factionbtn, #fans {
+    height: auto;
+    padding: 10px;
+  }
+}
+@media(min-width:981px) and (max-width:1440px) {
+    .herocontent {
+     height: 360px;
+    }
+}

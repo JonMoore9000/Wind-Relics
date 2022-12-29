@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122115155-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122115155-7');
+</script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="mobile.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/91bd8b806b.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>Wind Relics | Skyweaver Lore</title>
+    <link rel="icon" type="image/x-icon" href="assets/new-favicon.png">
+  </head>
+  <body>
+
+    <div class="tipbot">
+      <div id="botimg"><img src="assets/bot-tip.png" alt=""></div>
+      <div><p>Skyweaver's new expansion, <a href="https://www.skyweaver.net/clash-of-inventors" target="_blank">Clash of Inventors</a>, is out today! Be sure to <a href="https://twitter.com/skyriftlabs" target="_blank">follow us on Twitter</a> for livestreams, lore content and more!</p></div>
+    </div>
+
+    <audio id="theme" src="assets/skytheme.wav" type="audio/mp3" loop></audio>
+
+
+    <div class="nav">
+      <p id="all"><i class="fad fa-treasure-chest"></i>Show All Lore</p>
+      <p id="factionbtn">Tribes & Factions<span id="factionhelp">CLOSE</span></p>
+      <p class="mobileTrack" id="clash">Clash of Inventors</p>
+      <p class="mobileTrack" id="hex">Hexbound Invasion<span>Coming soon</span></p>
+      <h4><i class="fad fa-scroll-old"></i>Ancient Writings</h4>
+      <p class="mobileTrack" id="genesis">Genesis of the Sky</p>
+      <p class="mobileTrack" id="history">Histories of Sky</p>
+      <p class="mobileTrack" id="mask">Mask Inscription</p>
+      <h4><i class="fa-duotone fa-dungeon"></i>Other Sources</h4>
+      <p class="mobileTrack" id="qui">The Quiology</p>
+      <p class="mobileTrack" id="hero">Words from Heroes</p>
+      <p class="mobileTrack" id="dragon">From the Dragons</p>
+      <p class="mobileTrack" id="armis">Armis Logs & Reports</p>
+      <p class="mobileTrack" id="dream">The Dreamfield</p>
+      <!-- <p class="mobileTrack" id="oni">Oni References</p> -->
+
+
+      <div class="social">
+        <div class="eth">
+          <p id="wallet">If you enjoy our little Skyweaver lore tool, feel free to send some USDC (polygon) or
+            conquest tickets to us via Sequence: <br><span>0x380C31A8960B2d694b463756f00fd406422C756B</span><button onClick="copyWallet()">Copy Wallet Address</button></p>
+        </div>
+        <a href="https://twitter.com/skyriftlabs" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+        <p id="copyright"> | Skyrift Labs</p>
+      </div>
+
+    </div>
+
+    <div class="theBody">
+      <div class="topBar">
+        <div id="showMobileMenu" class="mobileMenu"><i class="fal fa-bars"></i></div>
+        <form id="search" action="">
+          <input id="searchInput" type="text" placeholder="search for any keyword" name="search">
+          <p id="searchlive">live search</p>
+          <button class="searchButton" type="submit"><i class="fad fa-search"></i></button>
+        </form>
+          <div class="metaStuff"><p class="amount"></p></div>
+          <div id="google_translate_element"></div>
+
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+            }
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      </div>
+      <div class="factions">
+        <p id="factionclose"><i class="fa-solid fa-xmark"></i></p>
+        <div class="factionbox">
+          <img src="assets/CYGNANS.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">CYGNANS</h3>
+            <p class="tribebio">Swan monks who hone their bodies and minds through rigorous martial training and study of the history of Sky.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/PRIMALANS.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">PRIMALANS</h3>
+            <p class="tribebio">A nomadic ancient race of half-bird people, who claim to be the descendants of the Qui.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/SERVITORS.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">SERVITORS</h3>
+            <p class="tribebio">Ancient beings from the age of Qui, driven by inscrutable and mysterious motives.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/RAPTORS.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">RAPTORS</h3>
+            <p class="tribebio">A powerful and fiercely independent bird-people that populate the outer regions of Sky.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/WU-KIN.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">WU-KIN</h3>
+            <p class="tribebio">A wise race of primates that live in and protect the ancient ruins of Sky, and their secrets, from outsiders.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/TORTUGAN.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">TORTUGAN</h3>
+            <p class="tribebio">A wise, intellectual, and long-lived race of turtle people who have a technologically advanced society.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/SIRENS.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">SIRENS</h3>
+            <p class="tribebio">A wild and predatory subspecies of carnivorous Merfolk with tight communal bonds.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/WRAITHS.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">WRAITHS</h3>
+            <p class="tribebio">An ageless, ancient, cunning race of spirits that hunger for the lifeforce of the living.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/THE-EXO.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">EXO</h3>
+            <p class="tribebio">A feared and vengeful species of insect people, banished to the Undercroft in ancient times.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets\REVENANTS.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">Revenants</h3>
+            <p class="tribebio">An ancient tribe of humans changed by milenna of life in the darkness of the Undercroft.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/THE-HEXBOUND.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">HEXBOUND</h3>
+            <p class="tribebio">A mindless raving horde of sickly, accursed undead that desires only to spread its curse further.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/HOPLITES.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">HOPLITES</h3>
+            <p class="tribebio">A race of amphibian scavengers who have built a society based on ancient fairytales they found.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/SAURIAN.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">SAURIAN</h3>
+            <p class="tribebio">A primal race of reptilian humanoids native to the jungles of Sky, forming the last vestiges of an ancient civilization.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/TREEFOLK.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">TREEFOLK</h3>
+            <p class="tribebio">A long-lived race of treelike beings native to the Etherwald. They serve as living relics of the past, repositories of knowledge, and ancient magics.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/SPOREKIN.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">SPOREKIN</h3>
+            <p class="tribebio">A timid, tightly knit, and peaceful race of mushroom people who possess powerful and desirable toxic spores.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/DRYADS.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">DRYADS</h3>
+            <p class="tribebio">Daughters of the goddess Ethera, the Dryads protect the Etherwald and its vast natural resources from outsiders.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/WOLFKIN.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">WOLFKIN</h3>
+            <p class="tribebio">Powerful and aggressive Beastfolk who live alongside the humans of the wildlands, working together for survival.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/VULPINE.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">VULPINE</h3>
+            <p class="tribebio">A mischievous fox race of mages, swordsmen and tricksters.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/ONI.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">ONI</h3>
+            <p class="tribebio">Powerful and honorable humanoids native to the mountains of Sky, who possess demonic heritage.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/LEORAN.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">LEORAN</h3>
+            <p class="tribebio">A proud feline people with an affinity for lightning magic and a knack for adopting new allies.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/THE-SURIT.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">THE SURIT</h3>
+            <p class="tribebio">A theocratic, sun-worshipping society of meerkat people, who have lived in Sky’s deserts since time immemorial.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/LAPIN.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">LAPIN</h3>
+            <p class="tribebio">A stubborn but good-natured race of rabbit people. Master engineers, miners, and craftspeople.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/BADGERKIN.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">MELLIN</h3>
+            <p class="tribebio">A mischievous, free-spirited badger people. Experts with explosives and at breaking into the most secure places in Sky.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/THE-ARMIS.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">THE ARMIS</h3>
+            <p class="tribebio">A society of humans governed by authoritarian rule. They believe their destiny is to bring order and stability to all of Sky.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/ANIMATA.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">ANIMATA</h3>
+            <p class="tribebio">Mischievous living objects given life by an overexposure to mind element magic.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/MASKED-DREAMERS.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">MASKED DREAMERS</h3>
+            <p class="tribebio">A bizarre race of beings native to the Dreamfield, dedicated to seeking out and accumulating knowledge.</p>
+          </div>
+        </div>
+        <div class="factionbox">
+          <img src="assets/DREAMBEASTS.jpg" alt="">
+          <div class="factioncontent">
+            <h3 class="tribe">DREAMBEASTS</h3>
+            <p class="tribebio">Creatures born of the dreams and nightmares of mortals. They stalk the Dreamfield in search of wayward minds.</p>
+          </div>
+        </div>
+      </div>
+      <div class="allLore" id="loreSection"></div>
+    </div>
+
+
+    <div id="img-out"></div>
+
+    <div class="play" id="playtheme">
+      <i class="fas fa-music"></i>
+    </div>
+    <div class="full" id="fullscreen">
+      <i class="fa-sharp fa-solid fa-maximize"></i>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="lore.js"></script>
+
+  </body>
+</html>
