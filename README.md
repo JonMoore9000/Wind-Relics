@@ -1,6 +1,6 @@
 # Wind Relics
  
-**skyweaver lore database**
+**Skyweaver Lore Database**
 
 ##### Wind Relics is a Skyweaver lore project, cataloging all Skyweaver lore. From all 500+ cards to official Skyweaver lore. All in one place.
 
