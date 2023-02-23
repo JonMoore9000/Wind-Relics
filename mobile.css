@@ -399,17 +399,14 @@
     text-align: center;
     position: relative;
     z-index: 1;
-    /*overflow: hidden;*/
-  }
-  #hex:hover {
-    cursor: inherit;
+    overflow: hidden;
   }
   #hex:after,
   #clash:after,
   #factionbtn:after {
     display: none;
   }
-  /*#hex:before,*/
+  #hex:before,
   #clash:before,
   #factionbtn:before {
     position: absolute;
@@ -423,7 +420,7 @@
     transition: .20s linear;
     transform: skewX(20deg);
   }
-  /*#hex:hover:before,*/
+  #hex:hover:before,
   #clash:hover:before,
   #factionbtn:hover:before {
     width: 90%;
