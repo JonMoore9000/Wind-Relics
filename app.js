@@ -620,6 +620,58 @@ var lore = [
   {stack: 'coi', content: 'The Dryads performed an elaborate dance for onlookers, weaving toxic vines into fantastic topiaries as deadly as they were beautiful.', person: '', personAdd: '', card: 'Boon of Nettles'},
   {stack: 'coi', content: 'Overclocking to 200%. WARNING, WARNING. Exceeding regulation limits could have dire consequences.', person: '', personAdd: '', card: 'Overdrive'},
 
+  // Hexbound Invasion
+  {stack: 'hex', content: 'Initially, Armis troops used fire to try and burn the Hexbound out, to less-than exceptional results.', person: '', personAdd: '', card: 'Flareboid'},
+  {stack: 'hex', content: 'It\'s true, one sip can take years off your lifespan, but in times like these, life has become alarmingly cheap.', person: 'Hawkins, Saurian Outcast', personAdd: '', card: 'Vile Deal'},
+  {stack: 'hex', content: 'Armis\' leaders are corrupt, its true purpose lost to time and greed, but there are still a few selfless souls among its people who would make its founder proud.', person: 'Fox', personAdd: '', card: 'Armis Medic'},
+  {stack: 'hex', content: 'With each passing day, with each passing life, the Hexbound scourge grows ever stronger.', person: 'Axel', personAdd: '', card: 'Breach the Gates'},
+  {stack: 'hex', content: 'Before the Hexbound had even breached Armis\' front line, the Cygnan and their disciples heard the whispers of death upon the wind.', person: '', personAdd: '', card: 'Heed the Winds'},
+  {stack: 'hex', content: 'Hungry... so very hungry. I have eaten my supplies, sticks and leaves, even the earth around me... but I am still empty.', person: 'Scraps of a lost journal', personAdd: '', card: 'Hexed Vulpine'},
+  {stack: 'hex', content: 'Most Hexbound are mindless beasts, sweeping the land in search of food. Those under Gerry\'s employ act with thought and purpose. Evil purpose, but purpose all the same.', person: '', personAdd: '', card: 'Hexswindler'},
+  {stack: 'hex', content: 'Four legs carry bad omens faster than two.', person: 'Cygnan Wisdom', personAdd: '', card: 'Rot Hound'},
+  {stack: 'hex', content: 'Even the darkest night must end. So long as the sun yet shines, the waters flow, and the wind still blows, life will endure.', person: 'Amaruath', personAdd: '', card: 'Sunpetal'},
+  {stack: 'hex', content: 'By chance, the Hex Plague first appeared among the Revenant, leading to increased tensions between their largely peaceful subterranean civilization and the surface.', person: '', personAdd: '', card: 'Blightcrafter'},
+  {stack: 'hex', content: 'Dismembering the Hexbound spreads the contagion. Burning them creates toxic smoke. Fortunately, we\'ve managed to cage them secure…ly...', person: 'Armis Cagesmith, deceased', personAdd: '', card: 'Hexbound Cage'},
+  {stack: 'hex', content: 'We\'ve lost signal from one of our sentinels. Send an expendable recruit to collect it.', person: 'Armis Dispatch', personAdd: '', card: 'hexed Sentinel'},
+  {stack: 'hex', content: 'I have begun to lose control. Tomorrow I\'ll make my final pilgrimage into the dunes. I hope only that I may pass on to meet my ancestors in peace', person: 'Journal, Final Notes', personAdd: '', card: 'Hexed Surit'},
+  {stack: 'hex', content: 'On rare occasions, even death itself sees fit to give the fallen a second chance.', person: 'Bouran', personAdd: '', card: 'Rebirth'},
+  {stack: 'hex', content: 'After three days of trying to break the Heretic\'s will, the Tyrant\'s champion fell against her shield, dead from exhaustion', person: 'The Quiology', personAdd: '7:19', card: 'Shields Up!'},
+  {stack: 'hex', content: 'The Vulpine of the Skyfire clan revere the Sky as the source of fire, born untold eons ago when lighting first embraced the Earth.', person: '', personAdd: '', card: 'Skyfire Master'},
+  {stack: 'hex', content: 'It\'s almost touching to know he still remembers my face after so long', person: 'Siti', personAdd: '', card: 'Vlad\'s Command'},
+  {stack: 'hex', content: 'Gerry is a wholly unique case, the only being on record to become Hex-bound without losing his mind or sense of self.', person: 'Sitti', personAdd: '', card: 'Yoink!'},
+  {stack: 'hex', content: 'For revering both the light and darkness as equals, the Order of the Crescent moon were branded Heretics by Kha Mhet, and cast into the Undercroft.', person: '', personAdd: '', card: 'Eclipse Mummy'},
+  {stack: 'hex', content: 'As the Hexbound advanced, some of those fleeing followed strange creatures into the Dreamfield, hoping to escape the waking nightmare. None were ever seen again.', person: '', personAdd: '', card: 'Gaunt Guide'},
+  {stack: 'hex', content: 'I fear the decay of my body less than that of my mind. I have begun to forget my friends, family, and soon, I fear, must forget myself.', person: 'Last testament of snow-wing, Primalan poet', personAdd: '', card: 'Hexed Primalan'},
+  {stack: 'hex', content: 'Occasionally, a Doom Shroom is born without poison or anger. Unfettered, these gentle giants wander across Sky, scattering their spores and giving rise to new Sporekin villages', person: '', personAdd: '', card: 'Humongshroom'},
+  {stack: 'hex', content: 'Earth becomes metal when properly tempered. We are born of the earth, and can be tempered in the same way.', person: 'Sven, Acolyte of Amaruath', personAdd: '', card: 'Oreheart Brawler'},
+  {stack: 'hex', content: '...Surely, this statue\'s creators had also thought themselves too great to perish, too mighty to fall. Where do you suppose they are now?', person: 'Axel', personAdd: 'to King Alren XI', card: 'Ruined Visage'},
+  {stack: 'hex', content: 'The mind floats upon an ocean of dreams, and it is from that ocean\'s depths that the greatest fantasies of this word are born.', person: 'Auntuga', personAdd: '', card: 'Star Cetacean'},
+  {stack: 'hex', content: 'The Blades of Armis are the kingsguard, the innermost circle of soldiers that serve as the King\'s Shield.', person: '', personAdd: '', card: 'Blade of Armis'},
+  {stack: 'hex', content: 'Let all witness the price of opposing our Cause.', person: 'Cruach', personAdd: '', card: 'Execute'},
+  {stack: 'hex', content: 'And I thought Sirens were vile, hungry, soulless beasts before!', person: 'Capt. Snapjaw', personAdd: '', card: 'Hexed Siren'},
+  {stack: 'hex', content: 'The strength of one\'s body fades with time. The strength of one\'s spirit, however, only grows.', person: '', personAdd: '', card: 'Scarred Servitor'},
+  {stack: 'hex', content: 'My gouged eyes have seen our destiny. To become one with the Hex is the fate of this world, and all within it.', person: '', personAdd: '', card: 'Blighted Bishop'},
+  {stack: 'hex', content: 'He\'s rotten to the core, a stinking, conniving, vile, soulless creature devoid of morals, scruples or mercy. Oh, I suppose he\'s undead too.', person: 'Mira', personAdd: '', card: 'Gerry the Goon'},
+  {stack: 'hex', content: 'I feel the Hex eating away at my body, my mind. The minds and hubris of men have turned Ethera\'s greatest gift into a curse of death.', person: '', personAdd: '', card: 'Hexed Treefolk'},
+  {stack: 'hex', content: 'The Dreamfield\'s greatest sorcerors sent legions of nightmares upon the Hexbound, driving them back.', person: '', personAdd: '', card: 'Mootichi\'s Command'},
+  {stack: 'hex', content: 'Pharonis sent legions of Royal Mummies against the Hexbound. Dead fought dead to determine the fate of the living.', person: '', personAdd: '', card: 'Pharonis\' Command'},
+  {stack: 'hex', content: 'In the face of such an existential threat, I\'ll take any and all allies we can get.', person: 'Mira', personAdd: '', card: 'Titanic\'s Command'},
+  {stack: 'hex', content: 'None of the Hexbound ever reached the Cygnan monasteries atop the foggy mountain peaks. Or, if any did, it is certain that none returned.', person: '', personAdd: '', card: 'Warden\'s Command'},
+  {stack: 'hex', content: 'When too much hexed energy builds in one area, it will suddenly collapse inward, achieving a kind of fusion, before erupting in a massive burst, blighting all around it for miles.', person: 'Mira', personAdd: '', card: 'Hexplosion'},
+  {stack: 'hex', content: 'Ursula the shatterer, Ursula the heretic. She seeks to free Cryogen\'s subjects from their endless torment, and deliver them unto death.', person: '', personAdd: '', card: 'Spellbreaker'},
+  {stack: 'hex', content: 'Even former enemies were met with a simple choice in the face of the Hexbound horde. Stand together, or die alone.', person: 'Histories of Sky', personAdd: '', card: 'Stand of One'},
+  {stack: 'hex', content: 'Those who stand tallest in life cast the longest shadows in death', person: 'Wu-Kin Proverb', personAdd: '', card: 'Abyss Lion'},
+  {stack: 'hex', content: 'Armis is all. Our city, our people, our divine founder, our destiny.', person: 'Cruach', personAdd: '', card: 'Bulwark of Armis'},
+  {stack: 'hex', content: 'Though the Cygan will not help us directly in this fight, they have offered some secrets that may yet save lives.', person: 'Iris', personAdd: '', card: 'Cygnan Secrets'},
+  {stack: 'hex', content: 'Though the Hexbound could not physically enter the Dreamfield, their presence in the nightmares of Sky\'s denizens gave the Hex another path into that immaterial realm.', person: '', personAdd: '', card: 'Hexed Beast'},
+  {stack: 'hex', content: 'The saurian blow horns to call their fellows to war. When the Hex Plague breached the edge of the jungle, the horns rang for weeks without end.', person: 'Histories of Sky', personAdd: '', card: 'Howling Horn'},
+  {stack: 'hex', content: 'When the Hexbound infringed upon Tortugan land. The sonic emanations of Pistol Shrimp carried critical communications between aquatic outposts.', person: '', personAdd: '', card: 'Sonic Signal'},
+  {stack: 'hex', content: 'Normally content to hunt in the icy depths, such serpents sometimes surface, drawn by the presence of great and powerful magics.', person: '', personAdd: '', card: 'Deepsea Serpent'},
+  {stack: 'hex', content: 'In the end, at great cost to both life and land, the Hexbound were driven back, and the Scourge was contained a little longer. But if something is not done, a day will come when that violet curtain will fall unstoppably, and terminally, across all of Sky...', person: '', personAdd: '', card: 'Empty the Undercroft'},
+  {stack: 'hex', content: 'Each and every Zomboid that set a foot upon the sands of Rashida swiftly joined them as dust.', person: '', personAdd: '', card: 'Storm\'s Echo'},
+  {stack: 'hex', content: 'As the Hexbound approached the Dreamfield\'s edge, Yxxathoxxz rolled in its slumber, and the ground boiled into a frenzy of life that rended the would be invaders asunder.', person: '', personAdd: '', card: 'Tentacle Eruption'},
+  {stack: 'hex', content: 'This plague would intrude upon our sacred lands. Bring timber and pitchfire. The time has come to implore the old gods.', person: 'Wyilde', personAdd: 'Wildfolk Matriarch', card: 'Soulpyre Titan'},
+
   // Fan Theories
   {content: 'UM we\'re getting a 6th prism and considering the genesis prism has been hinted at a lot I wonder if we\'ll be able to mix more than 2 prisms.', person: 'MissRex', personAdd: '', card: 'Fan Theory'},
   {content: 'Also I think the Tortugan are badass and could defeat Armis with their eyes closed but they\'re just minding their own business.', person: 'MissRex', personAdd: '', card: 'Fan Theory'},
@@ -781,6 +833,20 @@ function showCOILore() {
   var result = '';
     result = lore.map(function(item) {
     if (item.stack == ('coi')) {
+      return "<div class='loreBlock'>"
+        + "<h3>" + item.content + "</h3>"
+        + "<div class='loreExtra'><p class='person'>Origin: " + item.person + "</p>"
+        + "<p class='card'>Card: " + item.card + "</p></div>"
+        + "<i class='fa-solid fa-clipboard'></i>"
+    }
+  });
+  $('.allLore').html(result);
+}
+
+function showHexLore() {
+  var result = '';
+    result = lore.map(function(item) {
+    if (item.stack == ('hex')) {
       return "<div class='loreBlock'>"
         + "<h3>" + item.content + "</h3>"
         + "<div class='loreExtra'><p class='person'>Origin: " + item.person + "</p>"
@@ -971,6 +1037,13 @@ function clickCOI() {
     })
 }
 
+function clickHex() {
+    $('#hex').on('click', function() {
+      showHexLore()
+      getCount()
+    })
+}
+
 function getCount() {
   var count = $('.loreBlock').length + ' Results';
   $('.amount').html(count);
@@ -1102,4 +1175,5 @@ moveFaction();
 clickCOI();
 copyLore();
 clickDream();
+clickHex();
 });
